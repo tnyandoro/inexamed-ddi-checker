@@ -7,6 +7,7 @@ import AddedDrugs from './components/AddedDrugs';
 import Modal from './UI/Modal';
 import AppContext from './store/appContext';
 import LoadingIcons from 'react-loading-icons';
+import Navbar from './components/Navbar';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 
 	return (
 		<div className={classes.wrapper}>
+			<Navbar />
 			<Card>
 			{ctx.isLoading && <LoadingIcons.Oval stroke="Var(--color-primary)" strokeOpacity={.5} speed={1} strokeWidth="5" style={{position:'absolute',top:'45%',left:'50%', zIndex:'100',transform:'translateX(-50%)'}} />}
 				<Header />
@@ -30,9 +32,7 @@ function App() {
 						})}
 					</ul>
 					{ctx.modal.content==='interactions' && <p style={{color:'var(--color-grey-700)', marginTop:'1rem'}}>
-						<strong>Disclaimer: </strong>It is not the intention of this
-						application to provide specific medical advice. Please consult with
-						a qualified physician for advice about medications.
+						<strong>N.B: </strong>This App uses NLM API
 					</p>}
 				</Modal>
 			)}

@@ -14,7 +14,7 @@
 @media (min-width:576px){
     .header{
         font-size: 2.2rem;
-        background-image: linear-gradient(var(--primary-shadow), var(--primary-shadow)), url('../../assets/header-bg-big.jpg');
+        background-image: linear-gradient(var(--primary-shadow), var(--primary-shadow)), url('../../assets/bg.jpeg');
         padding: 5rem 2rem;
     }
     .title {
