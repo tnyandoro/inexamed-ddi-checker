@@ -132,7 +132,7 @@ const AppContextProvider = (props) => {
 				dispatchApp({
 					type: 'INTERACTIONS',
 					interactions: {
-						title: 'Check result',
+						title: 'Interaction result',
 						message: interactions,
 						content: 'interactions',
 					},
