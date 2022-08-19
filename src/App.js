@@ -8,6 +8,7 @@ import Modal from './UI/Modal';
 import AppContext from './store/appContext';
 import LoadingIcons from 'react-loading-icons';
 import Navbar from './components/Navbar';
+import "./components/Navbar.css";
 
 
 function App() {
