@@ -52,7 +52,7 @@ function App() {
           </ul>
           {ctx.modal.content === "interactions" && (
             <p style={{ color: "var(--color-grey-700)", marginTop: "1rem" }}>
-              <strong>N.B: </strong>This App uses NLM API
+              <strong>Answers at the speed of life" </strong>
             </p>
           )}
         </Modal>
