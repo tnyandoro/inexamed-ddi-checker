@@ -1,18 +1,16 @@
 import React, { useContext } from "react";
 import classes from "./App.module.css";
 import Card from "./UI/Card";
-import Header from "./components/Header/index";
-import SearchForm from "./components/SearchForm/index";
-import AddedDrugs from "./components/AddedDrugs/index";
 import Modal from "./UI/Modal";
 import AppContext from "./store/appContext";
 import LoadingIcons from "react-loading-icons";
 import Navbar from "./components/Navbar/index";
 import "./components/Navbar/Navbar.css";
-import { Route, Routes } from "react-router-dom";
-// import Home from './pages/Home';
-// import References from './pages/References';
-// import Pregnancy from './pages/Pregnancy';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from './pages/Home';
+import References from './pages/References';
+import Pregnancy from './pages/Pregnancy';
+import DrugInteractionSearch from './pages/DrugInteractionSearch';
 
 function App() {
   const ctx = useContext(AppContext);
@@ -20,11 +18,14 @@ function App() {
   return (
     <div className={classes.wrapper}>
       <Navbar />
-      {/* <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/pregnancy" element={<Pregnancy />} />
-          <Route path="/references" element={<References />} />
-      </Routes> */}
+      <Router>
+        <Routes>
+          <Route path="/" element={Home()} />
+          <Route path="/pregnancy" element={Pregnancy()} />
+          <Route path="/references" element={References()} />
+          <Route path="/interactions" element={DrugInteractionSearch()} />
+        </Routes>
+      </Router>
       <Card>
         {ctx.isLoading && (
           <LoadingIcons.Oval
@@ -41,11 +42,6 @@ function App() {
             }}
           />
         )}
-        <Header />
-        <main className={classes.main}>
-          <SearchForm />
-          <AddedDrugs />
-        </main>
       </Card>
       {ctx.modal && (
         <Modal title={ctx.modal.title} onClick={ctx.hideModal}>
