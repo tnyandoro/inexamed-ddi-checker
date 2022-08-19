@@ -7,6 +7,7 @@ export default function Navbar() {
       <li><a href="/">Home</a></li>
       <li><a href="/interactions">Interactions</a></li>
       <li><a href="/pregnancy">Pregnancy</a></li>
+      <li><a href="/references">References</a></li>
       <li><a href="/login">Login</a></li>
     </ul>
   </nav>
