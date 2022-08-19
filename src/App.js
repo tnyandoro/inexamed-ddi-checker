@@ -9,14 +9,25 @@ import AppContext from './store/appContext';
 import LoadingIcons from 'react-loading-icons';
 import Navbar from './components/Navbar';
 import "./components/Navbar.css";
+import { Route, Routes } from 'react-router-dom';
+// import Home from './pages/Home';
+// import References from './pages/References';
+// import Pregnancy from './pages/Pregnancy';
+
 
 
 function App() {
+
 	const ctx = useContext(AppContext);
 
 	return (
 		<div className={classes.wrapper}>
 			<Navbar />
+			{/* <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/pregnancy" element={<Pregnancy />} />
+          <Route path="/references" element={<References />} />
+      </Routes> */}
 			<Card>
 			{ctx.isLoading && <LoadingIcons.Oval stroke="Var(--color-primary)" strokeOpacity={.5} speed={1} strokeWidth="5" style={{position:'absolute',top:'45%',left:'50%', zIndex:'100',transform:'translateX(-50%)'}} />}
 				<Header />
