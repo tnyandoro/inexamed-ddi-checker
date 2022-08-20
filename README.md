@@ -17,7 +17,7 @@ NIH National Library of Medicine APIs:
 
 ## Our Project
 
-This project is found on the following Repo [COVID-19-TRACKING-PROJECT](https://github.com/tnyandoro/inexamed-ddi-checker
+This project is found on the following Repo [DDI-CHECKER](https://github.com/tnyandoro/inexamed-ddi-checker
 /)
 
 ## Live Demo
@@ -29,7 +29,7 @@ You can view the live demo of the project [Here!](https://614255540bbc8400e31a7e
 A Morden Browser
 
 ### Setup
-- Go to [https://github.com/tnyandoro/COVID-19-TRACKING-PROJECT]
+- Go to [https://github.com/tnyandoro/inexamed-ddi-checker]
 - Clone the project to your local machine
 - Cd into your directory
 - Run npm install
