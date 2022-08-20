@@ -1,7 +1,7 @@
 {
   "name": "interaction-checker",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://github.com/tnyandoro.io//inexamed-ddi-checker",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -21,6 +21,8 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
