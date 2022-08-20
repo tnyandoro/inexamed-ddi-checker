@@ -2,3 +2,18 @@
   align-items: center;
   justify-content: center;
 }
+
+.main p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
