@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../UI/Button';
-import './assets/bg.jpeg';
+import '../assets/bg.jpeg';
 import './Home.css';
 
 export default function Home() {

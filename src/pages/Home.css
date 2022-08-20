@@ -17,3 +17,12 @@
   font-weight: 500;
   margin-bottom: 1rem;
 }
+
+.buttons {
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
