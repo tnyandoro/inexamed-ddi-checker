@@ -17,7 +17,8 @@ NIH National Library of Medicine APIs:
 
 ## Our Project
 
-This project is found on the following Repo [COVID-19-TRACKING-PROJECT](https://github.com/tnyandoro/COVID-19-TRACKING-PROJECT/)
+This project is found on the following Repo [COVID-19-TRACKING-PROJECT](https://github.com/tnyandoro/inexamed-ddi-checker
+/)
 
 ## Live Demo
 
