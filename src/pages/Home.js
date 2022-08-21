@@ -2,6 +2,7 @@ import React from 'react';
 import Button from '../UI/Button';
 import '../assets/bg.jpeg';
 import './Home.css';
+import DrugInteractionSearch from './DrugInteractionSearch';
 
 export default function Home() {
   return (
@@ -16,7 +17,9 @@ export default function Home() {
           by pharmacists and physicians.
       </p>
       <div className="buttons">
-          <Button type="submit">Let Get Started</Button>
+        <a href="/interactions" element={DrugInteractionSearch()}  className="button">
+          <Button type="submit" >Let Get Started</Button>
+        </a>
       </div>    
     </div>
   )
