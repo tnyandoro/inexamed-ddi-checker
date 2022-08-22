@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  text-decoration: none;
+}
+
+.faqs-Q {
+  font: size 2.5em;;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

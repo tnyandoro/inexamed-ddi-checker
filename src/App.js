@@ -4,11 +4,15 @@ import Card from "./UI/Card";
 import Modal from "./UI/Modal";
 import AppContext from "./store/appContext";
 import LoadingIcons from "react-loading-icons";
+import Logo from "./components/Logo/Logo";
 import Navbar from "./components/Navbar/index";
 import "./components/Navbar/Navbar.css";
+import Footer from "./components/Footer/index";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
 import References from './pages/References';
+import Faqs from './pages/Faqs';
 import Pregnancy from './pages/Pregnancy';
 import DrugInteractionSearch from './pages/DrugInteractionSearch';
 
@@ -17,12 +21,15 @@ function App() {
 
   return (
     <div className={classes.wrapper}>
+      <Logo />
       <Navbar />
       <Router>
         <Routes>
           <Route path="/" element={Home()} />
+          <Route path="/aboutus" element={AboutUs()} />
           <Route path="/pregnancy" element={Pregnancy()} />
           <Route path="/references" element={References()} />
+          <Route path="/faqs" element={Faqs()} />
           <Route path="/interactions" element={DrugInteractionSearch()} />
         </Routes>
       </Router>
@@ -57,6 +64,7 @@ function App() {
           )}
         </Modal>
       )}
+      <Footer />
     </div>
   );
 }

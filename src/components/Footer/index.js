@@ -1,12 +1,9 @@
 import React from "react";
-import "./Navbar.css";
+import "./Footer.css";
 
-export default function Navbar() {
+export default function Footer() {
   return (
     <nav className="nav">
-      <a href="/" className="navbar-brand">
-        INEXAMED
-      </a>
       <ul>
         <li>
           <a href="/">Home</a>
