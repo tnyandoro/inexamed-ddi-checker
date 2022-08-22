@@ -1,5 +1,13 @@
 .logo {
+  display: flex;
   font-size: 2rem;
   font-weight: bold;
   padding: 0.5rem;
+}
+
+img {
+  border: 1px solid rgb(75, 132, 189);
+  border-radius: 4px;
+  padding: 2px;
+  width: 150px;
 }

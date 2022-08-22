@@ -13,10 +13,10 @@ body {
 }
 
 .nav {
-  background-color: #333;
+  background-color:  #aeb3b5;
   color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   gap: 2rem;
   padding: 0 1rem;

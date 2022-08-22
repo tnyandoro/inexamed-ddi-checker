@@ -1,27 +1,11 @@
 import React from "react";
+import "./Pregnancy.css";
 
 export default function Pregnancy() {
   return (
-    <div>
-      <h1>Drug drug interaction Checker </h1>
-      <p>
-        {" "}
-        SApplication Program Interfaces (APIs) are available to users to
-        retrieve data from several drug information sources, including RxNorm,
-        MED-RT and RxTerms. Currently these APIs are available:{" "}
-      </p>
-      <ul>
-        <li>
-          <strong>RxNorm</strong> for retrieving data from the RxNorm data set
-        </li>
-        <li>MED-RT</li>
-        <li>Prescribable RxNorm API </li>
-        <li>RxTerms API </li>
-        <li>RxClass API </li>
-        <li>Drug Interaction API </li>
-      </ul>
+    <div className="container-preg">
       <h2>Drugs in Pregnancy</h2>
-      <p> 
+      <p className="text-preg"> 
         {" "}
                 Pregnancy is a unique period in a woman’s life. Many changes are happening to her body that may affect the
         pharmacology of medications. During pregnancy, a woman’s gastric pH is increased and gastric motility is

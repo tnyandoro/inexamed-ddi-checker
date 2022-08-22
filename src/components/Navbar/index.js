@@ -4,9 +4,6 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <nav className="nav">
-      <a href="/" className="navbar-brand">
-        INEXAMED
-      </a>
       <ul>
         <li>
           <a href="/">Home</a>
