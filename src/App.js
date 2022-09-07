@@ -20,6 +20,7 @@ function App() {
   const ctx = useContext(AppContext);
 
   return (
+    
     <div className={classes.wrapper}>
       <Logo />
       <Navbar />
