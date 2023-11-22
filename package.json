@@ -1,7 +1,7 @@
 {
+  "homepage": "https://lively-ground-05fe71003.1.azurestaticapps.net",
   "name": "interaction-checker",
   "version": "0.1.0",
-  "homepage": "https://github.com/tnyandoro/inexamed-ddi-checker",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -20,6 +20,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

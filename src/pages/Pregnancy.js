@@ -76,6 +76,66 @@ export default function Pregnancy() {
         pregnancy. Examples of medications in this class are thalidomide and warfarin.2
         {" "}
       </p>
+      <div className="App-table">
+      <table>
+        <tr>
+          <th>Drug </th>
+          <th>Pregnancy Recommendation </th>
+          <th>Breast-Feeding Recommendation </th>
+        </tr>
+        <tr>
+          <td>Abatacept </td>
+          <td>Limited Human Data—Animal Data Suggest Low Risk </td>
+          <td>No Human Data—Potential Toxicity </td>
+        </tr>
+        <tr>
+          <td>Abemaciclib</td>
+          <td>Based on the mechanism of action and data from animal reproduction studies, use during pregnancy may cause fetal harm.</td>
+          <td>It is not known if abemaciclib is present in breast milk. Due to the potential for adverse events in the breastfed infant, the manufacturer does not recommend breastfeeding during
+
+          therapy and for 3 weeks after the last abemaciclib dose.</td>
+        </tr>
+        <tr>
+          <td>Abiraterone</td>
+          <td>Contraindicated</td>
+          <td>Contraindicated</td>
+        </tr>
+        <tr>
+        <td>Acarbose</td>
+        <td>	
+
+        Limited Human Data—Animal Data Suggest Low Risk</td>
+        <td>No Human Data—Probably Compatible</td>
+      </tr>
+      <tr>
+        <td>Acetazolamide</td>
+        <td>Compatible</td>
+        <td>Compatible</td>
+      </tr>
+      <tr>
+      <td>Acetylcystiene</td>
+      <td>Compatible—Maternal Benefits >> Embryo–Fetal Risk</td>
+      <td>No Human Data—Probably Compatible</td>
+    </tr>
+    <tr>
+      <td>Acetylsalicylic Acid</td>
+      <td>Activated charcoal is not absorbed systemically following oral administration. Use during pregnancy is not expected to result in significant exposure to the fetus</td>
+      <td>Activated charcoal is not absorbed systemically following oral administration. Breast-feeding is not expected to result in significant exposure to a nursing child.</td>
+    </tr>
+    <tr>
+    <td>Megha</td>
+    <td>19</td>
+    <td>Female</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>Subham</td>
+    <td>25</td>
+    <td>Male</td>
+    <td>Male</td>
+  </tr>
+      </table>
+    </div>
     </div>
   );
 }
